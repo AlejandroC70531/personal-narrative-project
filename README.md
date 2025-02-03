@@ -36,6 +36,11 @@ Record a short video of your story to display here on your README. You can do th
 ## Story Description
 
 Write a description of the story that your animation showcases. Give addional context for your story here in the case your animation is more abstract and only has images and little text. Lastly, include what data in your project is represented in 2D arrays and how those directly relate to the story your animation showcase.
+
+My story is showcasing what I like to listen to in terms of music. This includes my favorite metal bands, rappers, and classical composers. It also showcases some of their statistics such as which has the most monthly listeners and who made the most popular song with how many streams. The data I included in my project are images of the musicians (the file names also doubled as what they are named as in the animation), their monthly listeners (to compare which out of all in their genre has the most listeners), their most trending song (to compare which has the most popular song), each trending song's streams (used to compare the songs' popularity), and the pictures of the albums these songs came from (used as an addition to display the most popular song and where it came from).
+
 ## Image Filter Analysis
 
 Choose at least 2 filters uses in your animation to explain how the pixels are modified. If you created a new image filter that was not one of the ones from this unit, make sure to explain and analyze that filter(s) before choosing ones that came from this unit.
+
+The filter I made changed all the color values to either 0 or 255 to create black and white respectively simply by setting their values to said numbers. One filter I used from the unit is the pixelate filter. This filter grabs the red, green, blue color values from all of the pixels in a certain grid size and adds them all up. These values are then divided by the grid size, and each pixel in that grid takes on these average values. Another filter I used is the colorize filter. This filter adds up all of the RGB color values of a pixel and divides them by 3 (three colors). If the average is less than 85, that pixel turns all red. If the average is less than 170, then the pixel turns completely green. Otherwise, the pixel turns completely blue.
